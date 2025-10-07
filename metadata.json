@@ -1,0 +1,5 @@
+{
+  "name": "Pendulums",
+  "description": "A multi-pendulum simulation that creates beautiful spirographic patterns based on URL parameters.",
+  "requestFramePermissions": []
+}

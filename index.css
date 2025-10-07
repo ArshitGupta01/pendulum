@@ -1,0 +1,45 @@
+:root {
+  --background-color: #1a1a1a;
+  --button-bg: #333;
+  --button-text: #eee;
+  --button-hover-bg: #444;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#pivot {
+  transition: r 0.3s ease-out, fill 0.3s ease-out;
+}
+
+#apply-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  z-index: 10;
+}
+
+#apply-btn:hover {
+  background-color: var(--button-hover-bg);
+}
